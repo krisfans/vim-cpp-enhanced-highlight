@@ -286,11 +286,11 @@ hi def link cBoolean Boolean
 "  Additional optional highlighting
 " -----------------------------------------------------------------------------
 
-" Operators
-"syn match cOperator	"\(<<\|>>\|[-+*/%&^|<>!=]\)="
-"syn match cOperator	"<<\|>>\|&&\|||\|++\|--\|->"
-"syn match cOperator	"[.!~*&%<>^|=,+-]"
-"syn match cOperator	"/[^/*=]"me=e-1
+ "Operators
+syn match cOperator	"\(<<\|>>\|[-+*/%&^|<>!=]\)="
+syn match cOperator	"<<\|>>\|&&\|||\|++\|--\|->"
+syn match cOperator	"[.!~*&%<>^|=,+-]"
+syn match cOperator	"/[^/*=]"me=e-1
 "syn match cOperator	"/$"
 "syn match cOperator "&&\|||"
 "syn match cOperator	"[][]"
